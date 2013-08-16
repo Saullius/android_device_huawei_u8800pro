@@ -8,6 +8,6 @@ ro.telephony.default_network=0
 ro.telephony.ril_class=HwQcomRIL
 mobiledata.interfaces=rmnet0,gprs,ppp0
 
-ro.confg.hw_appsbootversion=U8800PROVCM101_APPSBOOT
-ro.confg.hw_appversion=U8800PROVCM101_KERNEL
-ro.confg.hw_appfsversion=U8800PROVCM101_SYSIMG
+ro.confg.hw_appsbootversion=U8800PROVCM102_APPSBOOT
+ro.confg.hw_appversion=U8800PROVCM102_KERNEL
+ro.confg.hw_appfsversion=U8800PROVCM102_SYSIMG
