@@ -1,5 +1,5 @@
 #
-# system.prop for u8800PRO
+# system.prop for u8860
 #
 
 rild.libpath=/system/lib/libril-qc-1.so
@@ -8,6 +8,6 @@ ro.telephony.default_network=0
 ro.telephony.ril_class=HwQcomRIL
 mobiledata.interfaces=rmnet0,gprs,ppp0
 
-ro.confg.hw_appsbootversion=U8800PROVCM101_APPSBOOT
-ro.confg.hw_appversion=U8800PROVCM101_KERNEL
-ro.confg.hw_appfsversion=U8800PROVCM101_SYSIMG
+ro.confg.hw_appsbootversion=U8860VCM101_APPSBOOT
+ro.confg.hw_appversion=U8860VCM101_KERNEL
+ro.confg.hw_appfsversion=U8860VCM101_SYSIMG

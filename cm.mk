@@ -1,8 +1,9 @@
 # Correct bootanimation size for the screen
-TARGET_BOOTANIMATION_NAME := vertical-480x800
+TARGET_SCREEN_HEIGHT := 854
+TARGET_SCREEN_WIDTH := 480
 
 # Inherit device configuration
-$(call inherit-product, device/huawei/u8800pro/u8800pro.mk)
+$(call inherit-product, device/huawei/u8800pro/u8860.mk)
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_mini_phone.mk)
@@ -12,16 +13,16 @@ $(call inherit-product, vendor/cm/config/gsm.mk)
 
 # Setup device configuration
 
-PRODUCT_NAME := cm_u8800pro
-PRODUCT_DEVICE := u8800pro
+PRODUCT_NAME := cm_u8860
+PRODUCT_DEVICE := u8860
 PRODUCT_BRAND := Huawei
-PRODUCT_MODEL := U8800Pro
+PRODUCT_MODEL := U8860
 PRODUCT_MANUFACTURER := Huawei
-PRODUCT_RELEASE_NAME := U8800PRO
+PRODUCT_RELEASE_NAME := U8860
 
 #Set build fingerprint / ID / Product Name ect.
 PRODUCT_BUILD_PROP_OVERRIDES += \
-	PRODUCT_NAME=u8800pro \
-	BUILD_FINGERPRINT=huawei/u8800pro:4.2.1/IMM76L/223133:userdebug/test-keys \
-	PRIVATE_BUILD_DESC="huawei-user 4.2.1 IMM76L 223133 test-keys" \
-	BUILD_NUMBER=JDQ39E
+	PRODUCT_NAME=u8860 \
+	BUILD_FINGERPRINT=huawei/u8860:4.2.2/JDQ39/573038:user/release-keys \
+	PRIVATE_BUILD_DESC="huawei-user 4.2.2 JDQ39 573038 release-keys" \
+	BUILD_NUMBER=JDQ39

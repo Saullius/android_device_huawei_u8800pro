@@ -3,8 +3,8 @@
 # Inherit from the common msm7x30 definitions
 -include device/huawei/msm7x30-common/BoardConfigCommon.mk
 
-TARGET_BOOTLOADER_BOARD_NAME := u8800pro
-TARGET_OTA_ASSERT_DEVICE := u8800pro,U8800PRO
+TARGET_BOOTLOADER_BOARD_NAME := u8860
+TARGET_OTA_ASSERT_DEVICE := u8860,U8860,honor,Honor
 
 # RIL
 BOARD_RIL_CLASS := ../../../device/huawei/u8800pro/RIL/
