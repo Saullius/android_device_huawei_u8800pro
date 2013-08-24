@@ -13,8 +13,8 @@ BOARD_RIL_CLASS := ../../../device/huawei/u8800pro/RIL/
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR ?= device/huawei/u8800pro/bluetooth
 
 # Kernel
-TARGET_KERNEL_SOURCE := kernel/huawei/u8860-new
-TARGET_KERNEL_CONFIG := cm_u8860_defconfig
+# TARGET_KERNEL_SOURCE := kernel/huawei/u8860-new
+# TARGET_KERNEL_CONFIG := cm_u8860_defconfig
 
 TARGET_PREBUILT_KERNEL := device/huawei/u8800pro/kernel
 TARGET_PREBUILT_RECOVERY_KERNEL := device/huawei/u8800pro/kernel
